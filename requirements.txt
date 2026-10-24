@@ -1,0 +1,4 @@
+# Python 2.7 (last versions of each package that support it)
+pygame==1.9.6
+numpy==1.16.6
+opencv-python==4.2.0.32

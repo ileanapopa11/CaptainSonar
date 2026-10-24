@@ -56,7 +56,7 @@ The game uses a client/server architecture built on [PodSixNet](https://github.c
 Install the dependencies (Python 2.7):
 
 ```bash
-pip install pygame numpy opencv-python==4.2.0.32
+pip install -r requirements.txt
 ```
 
 Run everything from inside the `Sonar` folder, because the image paths are relative:
@@ -77,6 +77,7 @@ The game starts once two players have connected. The first player to connect mov
 ```
 CapitanSonar.pdf      Dissertation paper (in Romanian)
 Prezentare.pptx       Dissertation presentation slides (in Romanian)
+requirements.txt      Python dependencies
 Sonar/
   player.py           Game client (rendering, game logic, input)
   server.py           Game server (matchmaking and message relay)
